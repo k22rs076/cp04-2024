@@ -177,7 +177,7 @@
         };
         var audio =new Audio();
         audio.src = "pin.wav";
-        audio.play();
+        //audio.play();
     }
     
     // ButtonAがクリックされた時の処理
@@ -208,10 +208,13 @@
         if(active){
             etime=parseInt((new Date()-startTime)/1000);
             rest=period-etime;
-            $("#time").html("経過時間:0");
-             $("#remain").html("残り時間:"+rest);
+            $("#time").html("経過時間:" + etime);
+             $("#remain").html("残り時間:" + rest);
              analog(rest);
-             
+             if(rest <= 0){
+                 active = false;
+                 alarm();
+             }
         }
         
     } 
