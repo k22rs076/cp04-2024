@@ -61,6 +61,11 @@
         font-size: 10px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
     }
+
+    #btnD{
+        position: absolute;top: 90%;left:2%;
+        width: 20%;height: 30px;
+    }
     
     #minute {
         font-size: 30px;
