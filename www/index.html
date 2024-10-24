@@ -207,7 +207,10 @@
         $("#time").html("経過時間:0");
         $("#remain").html("残り時間:"+period);
     }
-    
+    // ButtonDがクリックされた時の処理
+    function btnDClick(e){
+        alarm();
+    }
  
     // 繰り返し実行する処理
     function timer(){  
