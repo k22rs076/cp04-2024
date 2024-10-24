@@ -66,6 +66,13 @@
         position: absolute;top: 90%;left:2%;
         width: 20%;height: 30px;
     }
+    #disp1{
+        color:skyblue;
+        font-size: large;
+        position: absolute;top:70%;left: 2%;
+        width: 30%;height: 40px;
+
+    }
     
     #minute {
         font-size: 30px;

@@ -209,7 +209,10 @@
     }
     // ButtonDがクリックされた時の処理
     function btnDClick(e){
-        alarm();
+        $("#disp1").html("You clicked Special!");
+        $("#disp1").css("font-size", "x-large")
+        $("#disp1").css("color", "red");
+        //alarm();
     }
  
     // 繰り返し実行する処理
@@ -253,6 +256,7 @@
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button>  
     <button id="btnD">Special</button> 
+    <div id ="disp1">disp1</div>
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
 </body>
