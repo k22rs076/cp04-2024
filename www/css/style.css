@@ -87,3 +87,12 @@
     #time::after{
         content: "秒";
     }
+
+    #btnA::after{
+        color: green;
+        content: "▶";
+    }
+    #btnB::after{
+        color: red;
+        content: "■";
+    }
