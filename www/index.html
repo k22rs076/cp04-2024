@@ -38,6 +38,9 @@
         $('#btnC').click(function(e) {
             btnCClick(e);
         });
+        $('#btnD').click(function(e) {
+            btnDClick(e);
+        });
         init();
     });
     
@@ -163,6 +166,7 @@
         $('#btnA').prop('disabled', false);
         $('#btnB').prop('disabled', true);
         $('#btnC').prop('disabled', false);
+        $('#btnD').prop('disabled', false);
         btnCClick(null);
     }
 
