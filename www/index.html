@@ -211,6 +211,12 @@
             $("#time").html("経過時間:" + etime);
              $("#remain").html("残り時間:" + rest);
              analog(rest);
+/*
+             if(etime%4=rest ){
+                 $("#remain").css("font-size", "x-large")
+                 $("#remain").css("color", "red");
+             }
+*/
              if(rest <= 0){
                  active = false;
                  alarm();
